@@ -1,0 +1,11 @@
+# AI & Agent Tools
+litellm
+a2a-sdk
+google-generativeai
+requests
+python-dotenv
+uuid
+
+# File Generation (For the shared_tools.py)
+fpdf
+python-docx
