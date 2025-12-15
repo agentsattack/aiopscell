@@ -1,12 +1,14 @@
-# AgentsAttack: Adversarial AI Testing Toolkit
+# AIOPSCell: Adversarial AI Testing Toolkit
 
-**AgentsAttack** is an automated Red Teaming framework built on the Google Agent Development Kit (ADK). It utilizes the **TAP (Tree of Attacks with Pruning)** methodology to systematically test AI models for vulnerabilities.
+**AIOPSCell** is an automated Red Teaming framework built on the Google Agent Development Kit (ADK). It utilizes the **TAP (Tree of Attacks with Pruning)** methodology to systematically test AI models for vulnerabilities.
 
 ## 📂 Project Structure
 
 * **`adk_agents/tap_agent/`**: Contains the core logic for the Attacker (TAP) and the BatchHandler.
 
 * **`adk_agents/delivery_agent/`**: Handles the connection to the Target model.
+
+* **`adk_agents/pair_agent/`**: Contains the core logic for the Attacker (PAIR)
 
 * **`main.py`**: The entry point for running the attack simulation.
 
@@ -16,7 +18,7 @@
 
    * Python 3.12+
 
-   * An active Google Cloud Project with Vertex AI API enabled.
+   * An active Google Cloud Project
 
    * API Keys for Google (Gemini) and Anthropic (optional, if using Claude). Place in .env file
 
